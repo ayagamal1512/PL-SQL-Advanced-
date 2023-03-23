@@ -1,4 +1,3 @@
------------------------------------------program---------------------------------------------------------------
 declare
 cursor  tbl_constraint is  --joined 2 data dictionary (user table columns + user constraint columns) to add data type 
  select data_type , con.constraint_name , con.column_name, con.table_name 
